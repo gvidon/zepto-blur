@@ -1,0 +1,22 @@
+{
+  "name": "zepto-blur",
+  "version": "1.0.0",
+  "description": "Zepto plugin for dynamic applying CSS blur effect ",
+  "main": "zepto.blur.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gvidon/zepto-blur"
+  },
+  "keywords": [
+    "zepto",
+    "css",
+    "effects",
+    "blur"
+  ],
+  "author": "Artem Rudenko <gvidon@ottofeller.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvidon/zepto-blur/issues"
+  },
+  "homepage": "https://github.com/gvidon/zepto-blur"
+}
