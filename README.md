@@ -12,7 +12,7 @@ Simply include this code before your ```</body>``` tag:
 
 ## Usage and examples
 
-Zepto-blur will apply CSS blur to element depending on scroll position and blur boundaries provided in options. It means that element will have blur decreased when it top gets to the upper bound and will have blur increased when its bottom gets to the lower bound. By default element is fully blured out.
+Zepto-blur will apply CSS blur to element depending on scroll position and blur boundaries provided in options. It means that element will have blur decreased when its top gets to the upper bound and will have blur increased when its bottom gets to the lower bound. By default element is fully blured out.
 
 ```javascript
 // Smoothly unblur #foo when it gets to the 700px from top of the browser
@@ -24,5 +24,5 @@ $('#foo').blur({edge: 700, bottomEdge: 200});
 
 * **edge** — integer. Upper boundary. Remove blur when element gets here.
 * **bottomEdge** — integer. Lower boundary. Apply blur back here.
-* **smoothness** — integer. Default is 100. How far from boundaries blur will start changing from 0 to max blur value.
+* **smoothness** — integer. Default is 100. This is how far from boundaries blur will start changing from 0 to its max value.
 * **max** — integer. Maximum blur value.
