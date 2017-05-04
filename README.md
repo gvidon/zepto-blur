@@ -1,5 +1,7 @@
 # Zepto CSS blur plugin
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gvidon/zepto-blur.svg)](https://greenkeeper.io/)
+
 Apply CSS blur effect to element depending on scroll position.
 
 ## Install
